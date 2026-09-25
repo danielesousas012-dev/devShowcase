@@ -30,6 +30,3 @@ Acesse http://127.0.0.1:8000/docs para testar a API pelo navegador. O arquivo `d
 
 Em `/docs`, clique na rota, em **Try it out**, preencha o JSON e clique em **Execute**. Para demonstrar validação, envie um perfil com `github_url` inválida: a API retorna erro 422. Um perfil inexistente retorna 404.
 
-## Entrega e vídeo
-
-Crie um repositório **público** no GitHub e envie `main.py`, `requirements.txt`, `.gitignore` e este README. Não envie `.venv` nem o banco `.db`. Grave vídeo de 5 a 8 minutos, publique como **não listado** no YouTube e envie um PDF com os dois links. No vídeo: apresente-se com a câmera ligada, mostre rapidamente as quatro entidades e as três relações no código; rode `uvicorn main:app --reload`; teste as seis rotas em `/docs`, mostrando requisição e resposta na tela; mostre o repositório público. Compartilhe a tela inteira e confira o áudio.
