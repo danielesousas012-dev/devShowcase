@@ -21,7 +21,7 @@ Acesse http://127.0.0.1:8000/docs para testar a API pelo navegador. O arquivo `d
 
 ## Ordem para testar as seis rotas
 
-1. `POST /api/profiles` com `{"name":"Ana","bio":"Desenvolvedora","github_url":"https://github.com/ana"}`. Anote o `id` retornado.
+1. `POST /api/profiles` com `{"name":"Seu nome","bio":"Sobre você","github_url":"https://github.com/seunome"}`. Anote o `id` retornado.
 2. `GET /api/profiles/1` (use o ID que recebeu).
 3. `POST /api/technologies` com `{"name":"Python"}`. Anote o `id`.
 4. `GET /api/technologies`.
